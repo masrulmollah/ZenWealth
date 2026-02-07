@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import { Transaction, Summary } from './types.ts';
-import Dashboard from './components/Dashboard.tsx';
-import TransactionForm from './components/TransactionForm.tsx';
-import TransactionList from './components/TransactionList.tsx';
-import Charts from './components/Charts.tsx';
-import SmartInsights from './components/SmartInsights.tsx';
+import { Transaction, Summary } from './types';
+import Dashboard from './components/Dashboard';
+import TransactionForm from './components/TransactionForm';
+import TransactionList from './components/TransactionList';
+import Charts from './components/Charts';
+import SmartInsights from './components/SmartInsights';
 
 const App: React.FC = () => {
   const [transactions, setTransactions] = useState<Transaction[]>(() => {
