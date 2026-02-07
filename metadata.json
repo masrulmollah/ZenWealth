@@ -1,5 +1,5 @@
-
 {
   "name": "ZenWealth Finance Tracker",
-  "description": "A smart, minimalist personal finance manager to track income, expenses, and gain AI-powered financial insights."
+  "description": "A smart, minimalist personal finance manager to track income, expenses, and gain AI-powered financial insights.",
+  "requestFramePermissions": []
 }
